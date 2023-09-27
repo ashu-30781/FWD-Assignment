@@ -1,5 +1,117 @@
 // To run scss use 
 // sass --watch style.scss  style.css
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
 body {
-  background-color: #01476f;
+
+  .hamburger {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 2rem;
+  }
+
+  #main {
+    width: 95%;
+  }
+
+  #sideBar {
+    width: 25%;
+    height: 100vh;
+    display: inline-block;
+  }
+
+  #sideBar .emailModule {
+    background-color: #d9d9d9;
+    font-size: 1.5rem;
+    padding: 5px;
+    /* border: 2px solid yellow; */
+    color: #000000;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    padding-right: 10px;
+  }
+
+  .rightBorder {
+    rotate: 180deg;
+    float: right;
+    height: 106vh;
+    display: inline;
+    position: relative;
+    top: -47px;
+  }
+
+  .fa-envelope-circle-check {
+    border-radius: 50%;
+    position: relative;
+    height: 30px;
+    width: 39px;
+    background-color: white;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  .Audoience-Inside {
+    margin: 15px;
+    background-color: #d9d9d9;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .Audoience-Header {
+    margin-left: 39%;
+    margin-bottom: 15px;
+  }
+
+  #arrowRight {
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+  }
+
+  .fa-people-group {
+    border-radius: 50%;
+    position: relative;
+    height: 25px;
+    width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-right: 5px;
+  }
+
+  .Compaign-Inside {
+    margin: 15px;
+    background-color: #d9d9d9;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .Compaign-Header {
+    margin-left: 39%;
+    margin-bottom: 15px;
+  }
+
+  .fa-bullhorn {
+    border-radius: 50%;
+    position: relative;
+    height: 25px;
+    width: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-right: 5px;
+  }
 }
