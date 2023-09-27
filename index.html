@@ -44,6 +44,51 @@
         <section class="Compaign-Header">All Compaign List</section>
       </section>
     </section>
+    <!-- Main-Container  -->
+    <section id="contentSection">
+      <button id="importContact" onclick="FormData()">Import Contact</button>
+      <hr class="contentSectionBorder">
+
+      <div id="formData" style="display: none;">
+        <p class="internCurve">Intern Curve <button style="float:right">Action V</button></p>
+        <hr>
+
+        <form action="">
+          <h4 style="text-align: center; padding-top: 10px;">Edit <span onclick="closeForm()" style="float:right
+        ">X</span></h4>
+          <br>
+          <hr>
+          <br><br>
+          <label for="fname" class="lableF">First Name</label>
+          <input type="text" id="fname">
+          <label for="lname" class="lableF">Last Name</label>
+          <input type="text" id="lname">
+          <label for="email" class="lableF">Email Address</label>
+          <input type="email" id="email">
+          <label for="PhoneNo" class="lableF">Phone No.</label>
+          <input type="tel" id="PhoneNo">
+          <label for="category" class="lableF">Email Category</label>
+          <input type="text" id="category">
+          <label for="source" class="lableF">Source</label>
+          <input type="text" id="source">
+          <label for="comapany" class="lableF">Company</label>
+          <input type="text" id="comapany">
+          <label for="Date" class="lableF">Register Date</label>
+          <input type="date" id="Date">
+          <div class="formBtn">
+            <button type="submit" id="myForm">Save</button>
+            <button type="reset">Cancel</button>
+          </div>
+        </form>
+
+      </div>
+
+      <table id="tableContainer" border="2" style="padding: 2; margin: 2; display: none;">
+
+      </table>
+      <div id="paginationContainer"></div>
+
+    </section>
 
 
   </section>

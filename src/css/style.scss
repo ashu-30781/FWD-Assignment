@@ -6,8 +6,6 @@
 }
 
 body {
-
-  // Side bar
   .hamburger {
     position: absolute;
     top: 12px;
@@ -115,4 +113,133 @@ body {
     padding-top: 5px;
     margin-right: 5px;
   }
+
+  //  Main container 
+
+  #contentSection {
+    width: 74%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #importContact {
+    float: right;
+    margin-right: 50px;
+    padding: 7px;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .contentSectionBorder {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .internCurve {
+    margin: 20px;
+    color: #939393;
+    font-size: 1.2rem;
+  }
+
+  .internCurve>button {
+    padding: 2px;
+    color: #939393;
+  }
+
+  form {
+    margin: 10px;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+  }
+
+  input {
+    width: 35%;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #ebebeb;
+  }
+
+  .lableF {
+    width: 8%;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 1rem;
+  }
+
+  h4 {
+    color: #535353;
+  }
+
+  h4>span {
+    margin-right: 10px;
+  }
+
+  h4>span:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  .formBtn {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .formBtn Button {
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+  }
+
+  .formBtn Button:hover {
+    background-color: #d9d9d9;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 20px;
+  }
+
+  th {
+    width: 20%;
+  }
+
+  tr,
+  td {
+    text-align: center;
+  }
+
+  tr:nth-child(2) td:nth-child(2) {
+    text-decoration: underline;
+  }
+
+  tr:nth-child(2n) {
+    background-color: #f4f4f4;
+  }
+
+  tr:nth-child(0) {
+    background-color: #ebebeb;
+  }
+
+  .pagination span {
+    /* border: 2px solid black; */
+    /* margin-left: 86%; */
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    background-color: #d9d9d9;
+    margin-left: 10px;
+  }
+
+  .pagination a {
+    text-decoration: none;
+  }
+
+
+
+
 }
